@@ -1,7 +1,7 @@
 # Marlon's Swift Cheatsheet
 
 ## Table Of Contents
-- Aesthetics
+- [Aesthetics](#aesthetics)
 - Swift Basics
 - TableViews
 - Animations
