@@ -16,6 +16,11 @@ One of the properties is `.cornerRadius` and it is a property of `CALayer`. You 
 #### Implementation:
 
 Here's a regular ol' `UIView()` with rounded corners:
+<span class="comment">// Assuming you're creating the view programmatically. If you're using an IBOutlet, just use the nameof your view or outlet property.</span>
+
+<span class="keyword">let</span> containerView = <span class="type">UIView</span>(frame: <span class="type">CGRect</span>(x: <span class="number">0</span>, y:<span class="number">0</span>, height: <span class="number">100</span>, width: <span class="number">100</span>))
+containerView.<span class="property">backgroundColor</span> = .<span class="dotAccess">systemGreen</span>
+containerView.<span class="property">layer</span>.<span class="property">cornerRadius</span> = <span class="number">10.0</span> <span class="comment">// You can also just use 10.</span>
 ```swift
 // Assuming you're creating the view programmatically. If you're using an IBOutlet, just use the nameof your view or outlet property.
 
