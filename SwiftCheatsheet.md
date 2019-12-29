@@ -16,15 +16,6 @@ One of the properties is `.cornerRadius` and it is a property of `CALayer`. You 
 #### Implementation:
 
 Here's a regular ol' `UIView()` with rounded corners:
-
-<pre><code>
- // Assuming you're creating the view programmatically. If you're using an IBOutlet, just use the nameof your view or outlet property.
-
-let containerView = UIView(frame: CGRect(x: 0, y:0, height: 100, width: 100))
-containerView.backgroundColor = .systemGreen
-containerView.layer.cornerRadius = 10.0 // You can also just use 10.
-</code></pre>
-
 ```swift
 // Assuming you're creating the view programmatically. If you're using an IBOutlet, just use the nameof your view or outlet property.
 
