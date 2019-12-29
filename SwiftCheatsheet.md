@@ -16,11 +16,7 @@ One of the properties is `.cornerRadius` and it is a property of `CALayer`. You 
 #### Implementation:
 
 Here's a regular ol' `UIView()` with rounded corners:
-<iframe
-  src="https://carbon.now.sh/embed/9OtPX1sXcasU99mW5113"
-  style="transform:scale(0.7); width:1024px; height:473px; border:0; overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+https://carbon.now.sh/9OtPX1sXcasU99mW5113
 ```swift
 // Assuming you're creating the view programmatically. If you're using an IBOutlet, just use the nameof your view or outlet property.
 
